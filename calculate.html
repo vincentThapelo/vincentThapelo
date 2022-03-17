@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: white;
+            color: black;
+            border: 2px solid #4CAF50;
+        }
+
+            .button1:hover {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+        .button2 {
+            background-color: white;
+            color: black;
+            border: 2px solid #008CBA;
+        }
+
+            .button2:hover {
+                background-color: #008CBA;
+                color: white;
+            }
+
+        .button3 {
+            background-color: white;
+            color: black;
+            border: 2px solid #f44336;
+        }
+
+            .button3:hover {
+                background-color: #f44336;
+                color: white;
+            }
+
+        .button4 {
+            background-color: white;
+            color: black;
+            border: 2px solid #e7e7e7;
+        }
+
+            .button4:hover {
+                background-color: #e7e7e7;
+            }
+
+        .button5 {
+            background-color: white;
+            color: black;
+            border: 2px solid #555555;
+        }
+
+            .button5:hover {
+                background-color: #555555;
+                color: white;
+            }
+
+
+        .button {
+            display: inline-block;
+            padding: 10px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: lime;
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 9px red;
+        }
+
+            .button:hover {
+                background-color: red
+            }
+
+            .button:active {
+                background-color: limegreen;
+                box-shadow: 0 5px #666;
+                transform: translateY(4px);
+            }
+    </style>
+    <meta charset="utf-8" />
+    <title>Weight input</title>
+</head>
+<body>
+    <h1 style="text-align:center;font-family:'Lobster',cursive;font-size:25px;">Commodity: Clear PET bottles</h1>
+    
+    <div style="text-align:center; background-image:url(t.png);background-repeat:no-repeat;background-attachment:fixed;background-size:cover;">
+        <p style="font-family:'Rouge Script',cursive;"> <input class="button" type="submit" value="Calculate Weight" onclick="" /></p>
+        <p style="font-family:'Rouge Script',cursive;">Weight :<input style="border:2px solid lawngreen;border-radius:6px" type="text" id="weight" name="" value="" />Kg</p><br />
+        <p style="font-family:'Rouge Script',cursive;">Rate Per Kilogram Price : R<input style="border:2px solid lawngreen;border-radius:6px" type="text" id="price" name="" value="" /></p><br />
+        <p style="font-family:'Rouge Script',cursive;"> <input class="button" type="submit" id="price" name="" value="Calculate PayOut" onclick="paySalary()" /></p><br />
+        <p style="font-family:'Rouge Script',cursive;">Total Amount Due : R<input style="border:2px solid lawngreen;border-radius:6px" type="text" id="amount" name="" value="" /></p><br />
+
+        <p style="font-family:'Rouge Script',cursive;">Enter Card Reference / Account Number: <input style="border:2px solid lawngreen;border-radius:6px" type="text" id="account" name="" value="" /></p><br />
+        <p> <a href="https://go.microsoft.com/fwlink/?LinkId=403804"><input class="button" style="position:relative;left: -150px;top:-15px; " type="submit" id="account" name="" value="Card Reference / Account Number" /></a></p><br />
+    </div>
+        <p> <a href="FINALPAGE.html"><input class="button" style="position:relative;left: 850px;top:-123px;display:inline-block"   type="submit" id="confirm" name="" value="Confirm Payment" /></a></p>
+    
+    <script type="text/javascript" src="script.js">
+                                                                                                    /*
+                                                                                                    var weight = document.getElementById("weight").value;
+                                                                                                    var pricePerKilo = document.getElementById("price").value;;
+                                                                                                    //var weight = 15;
+                                                                                                    // var pricePerKilo = 3.00;
+
+                                                                                                    function paySalary() {
+                                                                                                        var totalPay = weight * pricePerKilo;
+
+                                                                                                        document.write(" Recorded weight :" + weight + "<br>");
+                                                                                                        document.write(" Rate per Kilo:" + pricePerKilo + "<br>");
+                                                                                                        document.write(" Amount Due : R" + totalPay);
+
+                                                                                                    }
+
+                                                                                                    //paySalary();
+
+*/
+
+
+    </script>
+</body>
+</html>
